@@ -1,0 +1,17 @@
+# use_frameworks!
+
+target 'CryptCipher_Example' do
+  # pod 'CryptCipher', :path => '../'
+  pod 'CryptCipher/AES', :path => '../'
+  pod 'CryptCipher/DES', :path => '../'
+  pod 'CryptCipher/SHA', :path => '../'
+  pod 'CryptCipher/RSA', :path => '../'
+  pod 'CryptCipher/MD5', :path => '../'
+
+  pod 'MJExtension'
+  target 'CryptCipher_Tests' do
+    inherit! :search_paths
+
+
+  end
+end

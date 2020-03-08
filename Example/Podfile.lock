@@ -1,0 +1,36 @@
+PODS:
+  - CryptCipher/AES (0.4.0):
+    - CryptCipher/SHA
+    - CryptCipher/Utils
+  - CryptCipher/Coder (0.4.0)
+  - CryptCipher/DES (0.4.0):
+    - CryptCipher/Utils
+  - CryptCipher/MD5 (0.4.0):
+    - CryptCipher/Utils
+  - CryptCipher/RSA (0.4.0):
+    - CryptCipher/Utils
+  - CryptCipher/SHA (0.4.0):
+    - CryptCipher/Utils
+  - CryptCipher/Utils (0.4.0):
+    - CryptCipher/Coder
+  - MJExtension (3.0.13)
+
+DEPENDENCIES:
+  - CryptCipher/AES (from `../`)
+  - CryptCipher/DES (from `../`)
+  - CryptCipher/MD5 (from `../`)
+  - CryptCipher/RSA (from `../`)
+  - CryptCipher/SHA (from `../`)
+  - MJExtension
+
+EXTERNAL SOURCES:
+  CryptCipher:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CryptCipher: 89f77a3456ec27340d38222cb521859d408bf72b
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+
+PODFILE CHECKSUM: 731c07378b0b6ad9a3b3a8c070fd9852c15afc57
+
+COCOAPODS: 1.2.0
